@@ -58,6 +58,26 @@ public:
 		green = g; 
 	}
 
+	int getRed() {
+
+		return red; 
+	}
+
+	int getBlue() {
+
+		return blue; 
+	}
+
+	int getGreen() {
+		
+		return green; 
+	}
+
+	void displayColors() {
+
+		cout << "Red: " << getRed() << endl << "Blue: " << getBlue() << endl << "Green: " << getGreen() << endl; 
+}
+
 };
 
 int main() {
