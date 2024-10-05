@@ -16,56 +16,34 @@ private:
 
 public: 
 
-	void setRed(int r) {
+	 // Constructor 
+	Color() { 
 
-		int red = r; 
+		red = 0; 
+
+		blue = 0; 
+
+		green = 0; 
 		
 	}
 
-	void setBlue(int b) {
+	 // Parametized Constructor 
+	Color(int r, int b, int g) {
 
-		int blue = b; 
-	}
+		red = r; 
 
-	void setGreen(int g) {
+		blue = b; 
 
-		int green = g; 
-	}
+		green = g; 
+	} 
 
-	int getRed() {
-		
-		return red; 
-	}
-
-	int getBlue() {
-		
-		return blue; 
-	}
-
-	int getGreen() {
-
-		return green; 
-	}
-	
-
-	void printColor()  {
-
-		cout << "Red: " << getRed() << endl << "Blue: " << getBlue() << endl << "Green: " << getGreen() << endl; 
-	}
 };
 
 int main() {
 
 	Color red, green, blue; 
 
-	Color display; 
-
-	red.setRed(0);
-	blue.setBlue(0);
-	green.setGreen(0);
-
-	display.printColor(); 
-
+	
 
 	return 0;
 }
