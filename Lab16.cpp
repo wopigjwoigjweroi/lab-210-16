@@ -37,6 +37,27 @@ public:
 		green = g; 
 	} 
 
+	 // Partial Constructor 
+	Color (int b) {
+
+		blue = b; 
+	}
+
+	void setRed(int r) {
+
+		red = r; 
+	}
+
+	void setBlue(int b) {
+
+		blue = b; 
+	}
+
+	void setGreen(int g) {
+
+		green = g; 
+	}
+
 };
 
 int main() {
