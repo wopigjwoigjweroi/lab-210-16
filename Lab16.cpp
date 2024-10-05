@@ -24,7 +24,6 @@ public:
 		blue = 0; 
 
 		green = 0; 
-		
 	}
 
 	 // Parametized Constructor 
@@ -76,15 +75,21 @@ public:
 	void displayColors() {
 
 		cout << "Red: " << getRed() << endl << "Blue: " << getBlue() << endl << "Green: " << getGreen() << endl; 
-}
+	}
 
 };
 
 int main() {
 
-	Color red, green, blue; 
+	Color g; 
 
-	
+	g.displayColors(); 
+
+	Color colors(255,35,28); 
+	colors.displayColors(); 
+
+	Color colorBlue(250); 
+	colorBlue.displayColors(); 
 
 	return 0;
 }
